@@ -3,6 +3,8 @@
 #include "ofMain.h"
 #include "Scene1.hpp"
 #include "Scene2.hpp"
+#include "Scene3.hpp"
+#include "Scene4.hpp"
 
 class ofApp : public ofBaseApp{
 	public:
@@ -35,8 +37,10 @@ class ofApp : public ofBaseApp{
     int scene;
   
   
-  Scene1 S1;
-  Scene2 S2;
+    Scene1 S1;
+    Scene2 S2;
+    Scene3 S3;
+    Scene4 S4;
   
     
 };

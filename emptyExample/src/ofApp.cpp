@@ -16,6 +16,8 @@ void ofApp::setup(){
   
     S1.init();
     S2.init();
+    S3.init();
+    S4.init();
   
 }
 
@@ -35,6 +37,10 @@ void ofApp::draw(){
     S1.display(frame);
   }else if(scene == 2){
     S2.display(frame);
+  }else if(scene == 3){
+    S3.display(frame);
+  }else if(scene == 4){
+    S4.display(frame);
   }
 
   
@@ -93,7 +99,7 @@ void ofApp::mouseDragged(int x, int y, int button){
 
 //--------------------------------------------------------------
 void ofApp::mousePressed(int x, int y, int button){
-  scene = (scene + 1) % 3;
+  scene = (scene + 1) % 5;
   
   
   
